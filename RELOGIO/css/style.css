@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: relogio ;
+    src: url(/fonts/DS-DIGI.TTF);
+}
+
+body{
+height: 100vh;
+background : url(/imagens/batman-vs-joker-movie-ohfu3ev0ryw3cg7x.jpg) ;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.central{
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: fit-content;
+    backdrop-filter: blur(1px);
+}
+
+.central div{
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 200px;
+    font-family: relogio;
+    bo
+
+}
+.central span{
+    font-size: 130px;
+    font-family: relogio;
+    
+
+}
