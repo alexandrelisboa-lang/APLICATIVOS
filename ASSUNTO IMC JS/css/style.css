@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    background: url(/imagens/pngtree-rows-of-dumbbells-in-the-gym-image_15662386.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    background: rgba(248, 248, 249, 0.216);
+    backdrop-filter: blur(3px);
+    box-shadow: 1px 1px 5px black;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    border-radius:20px;
+
+}
+
+.central input{
+    width: 100%;
+    height: 20px;
+    border: 2px solid rgb(13, 24, 250);
+
+}
+
+.central button{
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(13, 24, 250);
+    color: snow;
+    width: fit-content;
+    cursor: pointer;
+    &:hover{
+        background: snow;
+        color: rgb(13, 24, 250);
+        transition: 0.6s;
+        transform: scale(1.03);
+    }
+
+}
+.central span{
+    font-size: 20px;
+    color: rgb(13, 24, 250);
+}
+
+
