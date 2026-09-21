@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background:url(/imagens/carro-esportivo-dy960e9hbyidd1ln.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.central{
+    background: rgba(236, 240, 8, 0.014);
+    backdrop-filter: blur(3px);
+    box-shadow: 1px 1px 5px black;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.central input{
+    width: 100%;
+    height: 20px;
+    border: 2px solid rgb(235, 252, 7);
+}
+
+.central button{
+    font-weight: bold;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.027);
+    color: rgb(246, 250, 0);
+    width: fit-content;
+    cursor: pointer;
+    &:hover{
+        background: rgba(236, 252, 7, 0);
+        color: rgb(251, 255, 6);
+        transition: 0.6s;
+        transform: scale(1.03);
+    }
+}
+
+.central span{
+    font-size: 40px;
+    color: rgb(241, 241, 235);
+    
+}
+
+
+
+
